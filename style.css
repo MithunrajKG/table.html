@@ -3,6 +3,7 @@
     font-size: medium;
     font-style: italic;
 border-collapse: collapse;
+    padding:10px;
 }
 body{ 
     background-color: aqua;
