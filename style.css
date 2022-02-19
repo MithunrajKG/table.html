@@ -1,0 +1,32 @@
+.tab1{
+    color: rgb(32, 235, 49);
+    font-size: medium;
+    font-style: italic;
+border-collapse: collapse;
+}
+body{ 
+    background-color: aqua;
+    background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+     display: flex;
+     min-height: 100vh;
+     align-items: center;
+     justify-content: center;
+}
+#frow{
+    background-color:#2e2a27e5;
+}
+tr:nth-child(2n){
+    background-color: rgb(33, 166, 243);
+}
+tr:nth-child(2n+1){
+    background-color: rgb(78, 127, 136);
+}
+tr:hover{
+    background-color: rgb(6, 7, 7);
+}
+th,td
+{
+    padding: 3px 30px ;
+}
